@@ -1,10 +1,10 @@
 #1. Defining
-dict1={"name":"Nihitha","age":20,"course":"Python"}
-print(dict1) #Output:{'name': 'Nihitha', 'age': 20, 'course': 'Python'}
+dict1={"name":"Meghana","age":20,"course":"Python"}
+print(dict1) #Output:{'name': 'Meghana', 'age': 20, 'course': 'Python'}
 
 #2. Dictionary Operations
 #Accessing Values
-print(dict1["name"])#Output:Nihitha
+print(dict1["name"])#Output:Meghana
 print(dict1["age"])#Output:20
 
 #Difference Between dict[key] and dict.get(key)
@@ -16,33 +16,33 @@ print(dict1.get("city", "Not Available")) #Output:Not Available
 #2.2 Adding and Updating Items
 dict1["age"]=21
 dict1["city"]="Hyderabad"
-print(dict1)#Output: {'name': 'Nihitha', 'age': 21, 'course': 'Python', 'city': 'Hyderabad'}
+print(dict1)#Output: {'name': 'Meghana', 'age': 21, 'course': 'Python', 'city': 'Hyderabad'}
 
 #2.3 Removing Items from a Dictionary
 #Using pop(key)
 age=dict1.pop("age")
 print(age)#Output:21
-print(dict1)#Output:{'name': 'Nihitha', 'course': 'Python', 'city': 'Hyderabad'}
+print(dict1)#Output:{'name': 'Meghana', 'course': 'Python', 'city': 'Hyderabad'}
 #Using del
 del dict1["city"]
-print(dict1)#Output: {'name': 'Nihitha', 'course': 'Python'}
+print(dict1)#Output: {'name': 'Meghana', 'course': 'Python'}
 #Using popitem()
 dict1.popitem()
-print(dict1)#Output: {'name': 'Nihitha'}
+print(dict1)#Output: {'name': 'Meghana'}
 #Using clear()
 dict1.clear()
 print(dict1)#Output: {}
 
 #3. Dictionary Built-in Methods
 #3.1 Dictionary Methods for Accessing Data
-dict1={'name': 'Nihitha', 'age': 21, 'course': 'Python', 'city': 'Hyderabad'}
+dict1={'name': 'Meghana', 'age': 21, 'course': 'Python', 'city': 'Hyderabad'}
 print(dict1.get("Qualification","Not Found"))#Output: Not Found
 print(dict1.keys())#Output: dict_keys(['name', 'age', 'course', 'city'])
-print(dict1.values())#Output: dict_values(['Nihitha', 21, 'Python', 'Hyderabad'])
-print(dict1.items())#Output: dict_items([('name', 'Nihitha'), ('age', 21), ('course', 'Python'), ('city', 'Hyderabad')])
+print(dict1.values())#Output: dict_values(['Meghana', 21, 'Python', 'Hyderabad'])
+print(dict1.items())#Output: dict_items([('name', 'Meghana'), ('age', 21), ('course', 'Python'), ('city', 'Hyderabad')])
 #3.2 Dictionary Methods for Adding and Updating Data
 print(dict1.update({"city":"Warangal"}))
-print(dict1)#Output:{'name': 'Nihitha', 'age': 21, 'course': 'Python', 'city': 'Warangal'}
+print(dict1)#Output:{'name': 'Meghana', 'age': 21, 'course': 'Python', 'city': 'Warangal'}
 print(dict1.setdefault("marks","not found"))#Output:not found
 
 #4. Built-in Functions for Dictionaries
