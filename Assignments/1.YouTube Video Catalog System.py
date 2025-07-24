@@ -48,7 +48,7 @@ print("It has {} views and {} likes.".format(stats[0], stats[1]))
 print("Ad Type: {}, Revenue Share: {:.2f}%".format(monetization_info["Ad Type"], monetization_info["Revenue Share"]))
 
 
-''''
+'''
 -->OUTPUT:
 
 Enter Video ID: vid123
