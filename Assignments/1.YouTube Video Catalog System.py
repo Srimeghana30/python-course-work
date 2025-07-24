@@ -46,3 +46,33 @@ print("\n Summary:")
 print("Video '{}' (ID: {}) by {} falls under '{}' category.".format(title, video_id, uploader, category))
 print("It has {} views and {} likes.".format(stats[0], stats[1]))
 print("Ad Type: {}, Revenue Share: {:.2f}%".format(monetization_info["Ad Type"], monetization_info["Revenue Share"]))
+
+
+''''
+-->OUTPUT:
+
+Enter Video ID: vid123
+Enter Video Title: Learn Python Basics in 10minutes
+Enter Uploader (Channel Name): ProgrammingWorld
+Enter Category (e.g., Music, Education, Vlog): Education
+Enter Video Duration (in minutes): 10.12
+Enter Number of Views: 50124
+Enter Number of Likes: 1525
+Enter Tags (comma-separated): PythonBasics,Learn,Viral,Coding
+Enter Ad Type (e.g., Skippable, Non-Skippable): Non-Skippable
+Enter Revenue Share Percentage: 75.5
+Video ID, Title, Uploader:, vid123, Learn Python Basics in 10minutes, ProgrammingWorld
+Revenue Share: 75.5%
+
+ Video Title: Learn Python Basics in 10minutes
+ Uploaded by: ProgrammingWorld
+ Category: Education
+ Duration: 10.12 minutes
+ Stats: 50124 views, 1525 likes
+ Tags: PythonBasics,Viral,Coding,Learn
+ Monetization: Non-Skippable Ad
+
+Summary:
+Video 'Learn Python Basics in 10minutes' (ID: vid123) by ProgrammingWorld falls under 'Education' category.
+It has 50124 views and 1525 likes.
+Ad Type: Non-Skippable, Revenue Share: 75.50%'''
