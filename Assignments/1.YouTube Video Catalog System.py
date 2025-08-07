@@ -48,7 +48,7 @@ print("It has {} views and {} likes.".format(stats[0], stats[1]))
 print("Ad Type: {}, Revenue Share: {:.2f}%".format(monetization_info["Ad Type"], monetization_info["Revenue Share"]))
 
 
-''''
+'''
 -->OUTPUT:
 
 Enter Video ID: vid123
@@ -71,7 +71,7 @@ Revenue Share: 75.5%
  Stats: 50124 views, 1525 likes
  Tags: PythonBasics,Viral,Coding,Learn
  Monetization: Non-Skippable Ad
-
+*-
 Summary:
 Video 'Learn Python Basics in 10minutes' (ID: vid123) by ProgrammingWorld falls under 'Education' category.
 It has 50124 views and 1525 likes.

@@ -12,4 +12,5 @@ if hrs>=0 and hrs<=24 and mins>=0 and mins<=60:
     elif hrs>=20 and hrs<24:
         print("Good Night. Sweet Dreams!")
 else:
-    print("Enter the proper input, Your input is invalid")
+    print("Enter the proper input,Your input is invalid")
+    
